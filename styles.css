@@ -1,0 +1,75 @@
+/*فونت وزیر*/
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  background-color: #ef394e;
+  margin: 100px;
+  border-radius: 15px;
+  padding: 20px 20px 10px 20px;
+}
+.suggestion {
+  text-align: center;
+  flex: 16%;
+  height: 245px;
+  background-color: #ffffff;
+  border-radius: 0px;
+  border-right: 2px solid #ef394e;
+}
+/* محصول سمت راست که بردر رادیوس اون فرق داره */
+.first-suggestion {
+  text-align: center;
+  flex: 16%;
+  height: 245px;
+  background-color: #ffffff;
+  border-radius: 0px 8px 8px 0px;
+}
+.suggestion-img {
+  height: 150px;
+  width: 150px;
+  margin-top: 12px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 0px 15px;
+  flex-direction: row-reverse;
+}
+.price {
+  font-size: 16px;
+}
+.discount {
+  background-color: #ef394e;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 3px 12px 0px 12px;
+  border-radius: 20px;
+}
+.original-price {
+  color: #cbc9cc;
+  font-size: 12px;
+  text-decoration: line-through;
+  text-align: left;
+  padding: 3px 12px 0px 14px;
+}
+
+.suggestion-box {
+  flex: 16%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
+h4,
+p {
+  font-family: "Mada", sans-serif;
+}
